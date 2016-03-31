@@ -1,0 +1,42 @@
+/*
+Theme Name: Iron Rush
+Theme URI: localhost/ironRush
+Author: Bishan
+Author URI: localhost/ironRush
+Description: A stylish blog embeded social service website
+Version: 1.0
+Tags: simple, stylish, blog, social, service
+
+*/
+
+/* current menu item*/
+ #tooplate_menu ul li.current-menu-item a {
+	color: #fff;
+	background: url(images/tooplate_menu_hover.png) bottom center no-repeat;
+}
+
+#map iframe {  
+	border: 1px solid #999 !important; 
+	padding: 5px !important; 
+}
+
+/* Caption styles */
+.nivo-caption {
+	position:absolute;
+	left:0px;
+	bottom:40px !important;
+	background:#000;
+	color:#fff;
+	opacity:0.8; /* Overridden by captionOpacity setting */
+	width: 900px !important;
+	z-index:89;
+}
+
+#tooplate_footer .col_w200:last-of-type{
+
+	margin-right: 0px;
+	float:right;
+}
+#gallery ul li:nth-child(3n) { 
+	margin: 0 0 30px 0; 
+}
